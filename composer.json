@@ -52,8 +52,8 @@
     "sort-packages": true
   },
   "scripts": {
-    "install-dev": "composer install",
-    "install-prod": "composer install --prefer-dist --no-dev --optimize-autoloader",
+    "dependencies:install:dev": "composer install",
+    "dependencies:install:prod": "composer install --prefer-dist --no-dev --optimize-autoloader",
     "test": [
       "@phpcs",
       "@phpstan",
