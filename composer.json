@@ -26,6 +26,11 @@
     "php": "^8.0"
   },
   "require-dev": {
+    "phpstan/extension-installer": "1.1.*",
+    "phpstan/phpstan": "0.12.*",
+    "phpstan/phpstan-deprecation-rules": "0.12.*",
+    "phpstan/phpstan-phpunit": "0.12.*",
+    "phpstan/phpstan-strict-rules": "0.12.*",
     "phpunit/phpunit": "9.5.*",
     "roave/security-advisories": "dev-latest"
   },
@@ -49,8 +54,10 @@
     "install-dev": "composer install",
     "install-prod": "composer install --prefer-dist --no-dev --optimize-autoloader",
     "test": [
+      "@phpstan",
       "@phpunit"
     ],
+    "phpstan": "phpstan analyse --memory-limit 2G",
     "phpunit": "phpunit"
   }
 }

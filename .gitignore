@@ -5,6 +5,9 @@ composer.lock
 # JetBrains
 .idea/
 
+# PHPStan
+phpstan.neon
+
 # PHPUnit
 .phpunit.cache/
 phpunit.xml

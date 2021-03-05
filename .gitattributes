@@ -1,8 +1,10 @@
 * text=auto
 
 # Configurations
-phpunit.xml      text export-ignore
-phpunit.xml.dist text export-ignore
+phpstan.neon      text export-ignore
+phpstan.neon.dist text export-ignore
+phpunit.xml       text export-ignore
+phpunit.xml.dist  text export-ignore
 
 # Documentations
 *.md    text diff=markdown
