@@ -1,0 +1,50 @@
+{
+  "name": "lohmme/library-skeleton",
+  "description": "A skeleton for libraries written in PHP.",
+  "version": "1.0.0",
+  "type": "library",
+  "homepage": "https://github.com/Lohmme/Skeletons/tree/php/library",
+  "readme": "README.md",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Léo DEVILLE",
+      "email": "leo@deville.onl",
+      "homepage": "https://www.deville.onl/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "contact@deville.onl",
+    "issues": "https://github.com/Lohmme/Skeletons/issues",
+    "forum": "https://github.com/Lohmme/Skeletons/discussions",
+    "wiki": "https://github.com/Lohmme/Skeletons/wiki",
+    "source": "https://github.com/Lohmme/Skeletons/tree/php/library",
+    "docs": "https://github.com/Lohmme/Skeletons/tree/php/library/README.md"
+  },
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Library\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Library\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  },
+  "scripts": {
+    "install-dev": "composer install",
+    "install-prod": "composer install --prefer-dist --no-dev --optimize-autoloader"
+  }
+}
