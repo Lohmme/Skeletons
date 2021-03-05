@@ -1,6 +1,13 @@
 * text=auto
 
 # Configurations
+*.json      text
+*.neon      text
+*.neon.dist text
+*.xml       text
+*.xml.dist  text
+*.yaml      text
+*.yml       text
 phpcs.xml         text export-ignore
 phpcs.xml.dist    text export-ignore
 phpstan.neon      text export-ignore
@@ -18,14 +25,7 @@ LICENSE text
 .gitkeep       text export-ignore
 
 # Source codes
-*.json      text
-*.neon      text
-*.neon.dist text
 *.php       text diff=php
-*.xml       text
-*.xml.dist  text
-*.yaml      text
-*.yml       text
 
 # Others
 tests/ export-ignore
