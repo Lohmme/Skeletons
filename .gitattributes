@@ -24,6 +24,8 @@ LICENSE text
 *.php       text diff=php
 *.xml       text
 *.xml.dist  text
+*.yaml      text
+*.yml       text
 
 # Others
 tests/ export-ignore
