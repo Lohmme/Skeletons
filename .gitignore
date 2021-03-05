@@ -1,6 +1,10 @@
 # Composer
-composer.lock
 vendor/
+composer.lock
 
 # JetBrains
 .idea/
+
+# PHPUnit
+.phpunit.cache/
+phpunit.xml
