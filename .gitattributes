@@ -1,0 +1,17 @@
+* text=auto
+
+# Documentations
+*.md text diff=markdown
+
+# Git
+.gitattributes text export-ignore
+.gitignore     text export-ignore
+.gitkeep       text export-ignore
+
+# Source codes
+*.json      text
+*.neon      text
+*.neon.dist text
+*.php       text diff=php
+*.xml       text
+*.xml.dist  text
