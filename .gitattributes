@@ -25,7 +25,7 @@ LICENSE text
 .gitkeep       text export-ignore
 
 # Source codes
-*.php       text diff=php
+*.php text diff=php
 
 # Others
 tests/ export-ignore
