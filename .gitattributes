@@ -1,7 +1,8 @@
 * text=auto
 
 # Documentations
-*.md text diff=markdown
+*.md    text diff=markdown
+LICENSE text
 
 # Git
 .gitattributes text export-ignore
