@@ -32,7 +32,8 @@
     "phpstan/phpstan-phpunit": "0.12.*",
     "phpstan/phpstan-strict-rules": "0.12.*",
     "phpunit/phpunit": "9.5.*",
-    "roave/security-advisories": "dev-latest"
+    "roave/security-advisories": "dev-latest",
+    "squizlabs/php_codesniffer": "3.5.*"
   },
   "autoload": {
     "psr-4": {
@@ -54,9 +55,11 @@
     "install-dev": "composer install",
     "install-prod": "composer install --prefer-dist --no-dev --optimize-autoloader",
     "test": [
+      "@phpcs",
       "@phpstan",
       "@phpunit"
     ],
+    "phpcs": "phpcs",
     "phpstan": "phpstan analyse --memory-limit 2G",
     "phpunit": "phpunit"
   }

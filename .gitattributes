@@ -1,6 +1,8 @@
 * text=auto
 
 # Configurations
+phpcs.xml         text export-ignore
+phpcs.xml.dist    text export-ignore
 phpstan.neon      text export-ignore
 phpstan.neon.dist text export-ignore
 phpunit.xml       text export-ignore
