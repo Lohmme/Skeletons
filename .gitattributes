@@ -8,6 +8,7 @@
 *.xml.dist        text
 *.yaml            text
 *.yml             text
+.editorconfig     text export-ignore
 composer.lock     text -diff
 phpcs.xml         text export-ignore
 phpcs.xml.dist    text export-ignore
