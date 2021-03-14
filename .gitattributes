@@ -3,9 +3,7 @@
 # Configurations
 *.json            text
 *.neon            text
-*.neon.dist       text
 *.xml             text
-*.xml.dist        text
 *.yaml            text
 *.yml             text
 .editorconfig     text export-ignore
